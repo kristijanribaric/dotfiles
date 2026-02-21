@@ -1,0 +1,8 @@
+.claude/
+.ssh/
+.gnupg/
+*.key
+*.pem
+*.env
+.env.*
+secrets.*

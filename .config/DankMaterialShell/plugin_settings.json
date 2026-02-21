@@ -1,0 +1,17 @@
+{
+  "dockerManager": {
+    "enabled": true,
+    "debounceDelay": 412,
+    "terminalApp": "ghostty --wait-after-command "
+  },
+  "dankKDEConnect": {
+    "enabled": true
+  },
+  "calculator": {
+    "enabled": false,
+    "trigger": "="
+  },
+  "developerUtilities": {
+    "enabled": true
+  }
+}
