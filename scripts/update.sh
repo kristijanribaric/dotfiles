@@ -50,9 +50,10 @@ sync_file() {
 }
 
 # ---------------------------------------------------------------------------
-# Hyprland + Dank Linux ecosystem
+# Hyprland + Niri + Dank Linux ecosystem
 # ---------------------------------------------------------------------------
 sync_dir  "$CONFIG_SRC/hypr"             "$CONFIG_DST/hypr"             ".config/hypr"
+sync_dir  "$CONFIG_SRC/niri"             "$CONFIG_DST/niri"             ".config/niri"
 sync_dir  "$CONFIG_SRC/DankMaterialShell" "$CONFIG_DST/DankMaterialShell" ".config/DankMaterialShell"
 sync_dir  "$CONFIG_SRC/quickshell"       "$CONFIG_DST/quickshell"       ".config/quickshell"
 sync_dir  "$CONFIG_SRC/danksearch"       "$CONFIG_DST/danksearch"       ".config/danksearch"

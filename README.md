@@ -8,7 +8,7 @@ Personal dotfiles for my CachyOS setup running [Dank Linux (DankMaterialShell)](
 |---|---|
 | **OS** | [CachyOS](https://cachyos.org) (Arch-based) |
 | **Kernel** | CachyOS (performance-optimized) |
-| **WM** | [Hyprland](https://hyprland.org) |
+| **WM** | [Niri](https://github.com/YaLTeR/niri) (primary), [Hyprland](https://hyprland.org) |
 | **Shell (desktop)** | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) |
 | **Shell (terminal)** | Fish + Starship |
 | **Terminals** | Ghostty, Alacritty |
@@ -24,6 +24,7 @@ kristijan-dotfiles/
 ├── .zshrc
 ├── .gitconfig
 └── .config/
+    ├── niri/                  # Niri WM config + DMS bindings
     ├── hypr/                  # Hyprland WM config + DMS bindings
     ├── DankMaterialShell/     # Dank Linux shell (settings, themes, plugins)
     ├── quickshell/            # Quickshell config
