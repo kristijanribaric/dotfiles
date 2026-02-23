@@ -9,7 +9,7 @@
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
   "popupTransparency": 1,
-  "dockTransparency": 0.75,
+  "dockTransparency": 0.59,
   "widgetBackgroundColor": "sth",
   "widgetColorMode": "default",
   "controlCenterTileColorMode": "primary",
@@ -189,8 +189,8 @@
   "networkPreference": "wifi",
   "iconTheme": "System Default",
   "cursorSettings": {
-    "theme": "System Default",
-    "size": 24,
+    "theme": "volantes_cursors",
+    "size": 30,
     "niri": {
       "hideWhenTyping": false,
       "hideAfterInactiveMs": 0
@@ -264,7 +264,7 @@
   "terminalsAlwaysDark": true,
   "runDmsMatugenTemplates": true,
   "matugenTemplateGtk": true,
-  "matugenTemplateNiri": false,
+  "matugenTemplateNiri": true,
   "matugenTemplateHyprland": true,
   "matugenTemplateMangowc": true,
   "matugenTemplateQt5ct": true,
@@ -279,14 +279,14 @@
   "matugenTemplateFoot": true,
   "matugenTemplateAlacritty": true,
   "matugenTemplateNeovim": true,
-  "matugenTemplateWezterm": true,
+  "matugenTemplateWezterm": false,
   "matugenTemplateDgop": true,
   "matugenTemplateKcolorscheme": true,
   "matugenTemplateVscode": true,
   "matugenTemplateEmacs": true,
   "showDock": true,
-  "dockAutoHide": true,
-  "dockSmartAutoHide": false,
+  "dockAutoHide": false,
+  "dockSmartAutoHide": true,
   "dockGroupByApp": false,
   "dockOpenOnOverview": false,
   "dockPosition": 1,
@@ -436,15 +436,15 @@
           "enabled": true
         },
         {
-          "id": "focusedWindow",
-          "enabled": true
-        },
-        {
           "id": "dockerManager",
           "enabled": true
         },
         {
           "id": "developerUtilities",
+          "enabled": true
+        },
+        {
+          "id": "focusedWindow",
           "enabled": true
         }
       ],
@@ -490,7 +490,7 @@
       "spacing": 3,
       "innerPadding": 8,
       "bottomGap": 0,
-      "transparency": 0.66,
+      "transparency": 0.36,
       "widgetTransparency": 0,
       "squareCorners": false,
       "noBackground": false,
