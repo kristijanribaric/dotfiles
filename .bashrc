@@ -22,3 +22,4 @@ export PATH="$HOME/.dotnet:$HOME/.dotnet/tools:$PATH"
 
 alias paru='chrt --idle 0 ionice -c 3 paru'
 
+export EDITOR=nvim
