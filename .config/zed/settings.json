@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "edit_predictions": {
+    "provider": "sweep",
+    "sweep": {
+      "privacy_mode": true
+    }
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -14,7 +20,6 @@
   "session": {
     "trust_all_worktrees": true
   },
-  "base_keymap": "VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {

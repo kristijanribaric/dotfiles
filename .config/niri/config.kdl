@@ -21,9 +21,8 @@ input {
             // You can set rules, model, layout, variant and options.
             // For more information, see xkeyboard-config(7).
 
-            // For example:
-            // layout "us,ru"
-            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
+             layout "hr"
+             variant "us"
 
             // If this section is empty, niri will fetch xkb settings
             // from org.freedesktop.locale1. You can control these using
@@ -229,7 +228,7 @@ window-rule {
     match app-id=r#"^gnome-calculator$"#
     match app-id=r#"^galculator$"#
     match app-id=r#"^blueman-manager$"#
-    match app-id=r#"^org\.gnome\.Nautilus$"#
+    // match app-id=r#"^org\.gnome\.Nautilus$"#
     match app-id=r#"^xdg-desktop-portal$"#
     open-floating true
 }

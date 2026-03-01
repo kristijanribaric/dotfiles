@@ -18,8 +18,19 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH="$HOME/.dotnet:$HOME/.dotnet/tools:$PATH"
+export DOTNET_ROOT=$HOME/.dotnet
+#export PATH="$HOME/.dotnet:$HOME/.dotnet/tools:$PATH"
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
 alias paru='chrt --idle 0 ionice -c 3 paru'
 
 export EDITOR=nvim
+
+# pnpm
+export PNPM_HOME="/home/kristijan/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+source "$HOME/.cargo/env"
