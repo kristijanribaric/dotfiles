@@ -245,10 +245,10 @@ binds {
 
     // === Screen Recording ===
    Mod+Shift+F7 hotkey-overlay-title="Toggle Screen Recording" {
-    spawn "bash" "-c" "if pgrep -x wl-screenrec > /dev/null; then pkill -SIGINT wl-screenrec && notify-send 'Screen Recording' 'Recording stopped'; else notify-send -u low 'Screen Recording' 'Recording started...' && wl-screenrec -g \"$(slurp)\" -f \"$HOME/Videos/$(date +%Y%m%d_%H%M%S).mp4\"; fi";
+    spawn "bash" "-c" "if pgrep -x wl-screenrec > /dev/null; then pkill -SIGINT wl-screenrec && notify-send 'Screen Recording' 'Recording stopped'; else notify-send -u low 'Screen Recording' 'Recording started...' && wl-screenrec -g \"$(slurp)\" -f \"$HOME/Videos/recording_$(date +%Y%m%d_%H%M%S).mp4\"; fi";
     }
     Mod+Alt+F7 hotkey-overlay-title="Toggle Screen Recording (Audio)" {
-    spawn "bash" "-c" "if pgrep -x wl-screenrec > /dev/null; then pkill -SIGINT wl-screenrec && notify-send 'Screen Recording' 'Recording stopped'; else notify-send -u low 'Screen Recording' 'Recording started (with audio)...' && wl-screenrec -g \"$(slurp)\" --audio -f \"$HOME/Videos/$(date +%Y%m%d_%H%M%S).mp4\"; fi";
+    spawn "bash" "-c" "if pgrep -x wl-screenrec > /dev/null; then pkill -SIGINT wl-screenrec && notify-send 'Screen Recording' 'Recording stopped'; else notify-send -u low 'Screen Recording' 'Recording started (with audio)...' && wl-screenrec -g \"$(slurp)\" --audio -f \"$HOME/Videos/recording_$(date +%Y%m%d_%H%M%S).mp4\"; fi";
     }
 
 }

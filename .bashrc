@@ -34,3 +34,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 source "$HOME/.cargo/env"
+
+alias pn=pnpm
+alias ff=fastfetch

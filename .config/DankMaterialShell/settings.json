@@ -209,7 +209,7 @@
   "useAutoLocation": true,
   "weatherEnabled": true,
   "networkPreference": "auto",
-  "iconTheme": "System Default",
+  "iconTheme": "breeze-dark",
   "cursorSettings": {
     "theme": "volantes_cursors",
     "size": 29,
@@ -248,7 +248,7 @@
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
-  "acMonitorTimeout": 900,
+  "acMonitorTimeout": 600,
   "acLockTimeout": 0,
   "acSuspendTimeout": 10800,
   "acSuspendBehavior": 0,
@@ -590,7 +590,7 @@
         "showCpuGraph": true,
         "showCpuTemp": true,
         "showGpuTemp": false,
-        "gpuPciId": "",
+        "gpuPciId": "10de:2820",
         "showMemory": true,
         "showMemoryGraph": true,
         "showNetwork": true,
@@ -609,8 +609,8 @@
         "DP-1": {
           "width": 426.4609375,
           "height": 567.546875,
-          "x": 4636.61328125,
-          "y": 815.890625
+          "x": 4652.50390625,
+          "y": 831.60546875
         },
         "": {
           "width": 160,

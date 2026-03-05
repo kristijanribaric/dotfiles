@@ -3,6 +3,10 @@
     "enabled": true
   },
   "dockerManager": {
+    "enabled": true,
+    "terminalApp": "ghostty"
+  },
+  "dankKDEConnect": {
     "enabled": true
   }
 }
