@@ -18,9 +18,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export DOTNET_ROOT=$HOME/.dotnet
-#export PATH="$HOME/.dotnet:$HOME/.dotnet/tools:$PATH"
-export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+#export DOTNET_ROOT=$HOME/.dotnet
+export PATH="$HOME/.dotnet:$HOME/.dotnet/tools:$PATH"
+#export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
 alias paru='chrt --idle 0 ionice -c 3 paru'
 
