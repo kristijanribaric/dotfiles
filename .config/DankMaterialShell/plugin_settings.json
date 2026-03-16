@@ -4,7 +4,8 @@
   },
   "dockerManager": {
     "enabled": true,
-    "terminalApp": "ghostty"
+    "terminalApp": "ghostty",
+    "groupByCompose": false
   },
   "dankKDEConnect": {
     "enabled": true

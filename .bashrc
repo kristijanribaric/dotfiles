@@ -37,3 +37,7 @@ source "$HOME/.cargo/env"
 
 alias pn=pnpm
 alias ff=fastfetch
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

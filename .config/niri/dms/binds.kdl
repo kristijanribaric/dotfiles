@@ -224,6 +224,9 @@ binds {
 
     // === Screenshots ===
     Mod+F7 { screenshot; }
+    Mod+F6 hotkey-overlay-title="Edit Screenshot (Swappy)" {
+    spawn "sh" "-c" "wl-paste --type image/png | swappy -f -";
+}
     XF86Launch1 { screenshot; }
     Ctrl+XF86Launch1 { screenshot-screen; }
     Alt+XF86Launch1 { screenshot-window; }
