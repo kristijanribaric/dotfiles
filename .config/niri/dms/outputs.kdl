@@ -4,6 +4,14 @@ output "DP-1" {
     mode "5120x1440@240.000"
     scale 1
     position x=0 y=0
+      layout {
+        preset-column-widths {
+            proportion 0.25
+            proportion 0.33333
+            proportion 0.5
+            proportion 0.66667
+        }
+    }
 }
 
 output "eDP-1" {
@@ -11,4 +19,3 @@ output "eDP-1" {
     scale 2
     position x=0 y=0
 }
-
